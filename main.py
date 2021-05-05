@@ -1,5 +1,3 @@
-# Доделать https://youtu.be/Py4__v9TB68?t=304
-
 import tkinter as tk
 
 
