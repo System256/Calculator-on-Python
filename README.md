@@ -1,3 +1,3 @@
 # Calculator-on-Python
-Сделан по видеоурокам Егорова Артема
+Created based on video tutorials by Artem Egorov
 https://www.youtube.com/c/egoroffchannel
