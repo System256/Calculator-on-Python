@@ -41,6 +41,7 @@ def calculate():
         entry_calc.insert(0, 0)
     entry_calc['state'] = tk.DISABLED
 
+
 def clear():
     entry_calc['state'] = tk.NORMAL
     entry_calc.delete(0, tk.END)
