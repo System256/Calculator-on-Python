@@ -41,7 +41,6 @@ def calculate():
         entry_calc.insert(0, 0)
     entry_calc['state'] = tk.DISABLED
 
-
 def clear():
     entry_calc['state'] = tk.NORMAL
     entry_calc.delete(0, tk.END)
@@ -75,9 +74,9 @@ def press_key(event):
 
 
 root = tk.Tk()
-x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
-y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
-root.geometry("240x280+%d+%d" % (x, y))
+x = int((root.winfo_screenwidth() - root.winfo_reqwidth()) / 2)
+y = int((root.winfo_screenheight() - root.winfo_reqheight()) / 2)
+root.geometry(f'240x280+{x}+{y}')
 root['bg'] = '#4BB0E7'
 root.title("Калькулятор")
 
